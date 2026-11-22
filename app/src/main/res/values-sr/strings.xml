@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OneLytics</string>
+
+    <string name="status_sessions_today">sesija danas (GA4)</string>
+    <string name="status_no_data">Još nema podataka — prijavi se i izaberi property.</string>
+    <string name="status_last_ok_error">sesija danas (poslednje osvežavanje; prethodna greška)</string>
+
+    <string name="login">Prijavi se Google nalogom</string>
+    <string name="login_again">Prijavi se ponovo</string>
+    <string name="logout">Odjavi se</string>
+    <string name="refresh">Osveži</string>
+    <string name="widget_sub_default">danas</string>
+    <string name="refreshing">Osvežavam…</string>
+    <string name="settings_refresh">OSVEŽAVANJE</string>
+    <string name="refresh_every">Auto-osvežavanje: %1$s</string>
+    <string name="interval_title">Učestalost osvežavanja</string>
+    <string name="sync_analytics">Sinhronizuj Analytics</string>
+    <string-array name="interval_labels">
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 sat</item>
+        <item>3 sata</item>
+        <item>6 sati</item>
+        <item>1 dan</item>
+    </string-array>
+    <string-array name="palette_names">
+        <item>Tamna</item>
+        <item>Zelena</item>
+        <item>Plava</item>
+        <item>Ljubičasta</item>
+        <item>Narandžasta</item>
+        <item>Crvena</item>
+        <item>Svetla</item>
+    </string-array>
+    <string name="ok_logged_in">Prijava uspešna.</string>
+    <string name="ok_updated">Broj osvežen.</string>
+    <string name="err_not_configured">Prvo se prijavi i izaberi property.</string>
+    <string name="err_login_failed">Prijava nije uspela</string>
+    <string name="err_state_mismatch">OAuth state se ne poklapa — pokušaj ponovo.</string>
+    <string name="err_no_code">OAuth redirect ne sadrži kod.</string>
+
+    <string name="pick_property">Izaberi property sa liste…</string>
+    <string name="pick_property_title">Izaberi GA4 property</string>
+    <string name="loading_properties">Učitavam listu property-ja…</string>
+    <string name="err_properties">Greška pri listi property-ja: %1$s\n(Proveri da je uključen Google Analytics Admin API.)</string>
+    <string name="err_properties_title">Greška pri listi property-ja</string>
+    <string name="err_properties_empty">Nema GA4 property-ja dostupnih ovom nalogu.</string>
+    <string name="cancel">Odustani</string>
+
+    <string name="hint_tap_to_pick">dodirni pa izaberi property</string>
+    <string name="hint_login_needed">potrebna prijava</string>
+    <string name="id_prefix">ID %1$s</string>
+    <string name="config_login_needed">Prijavi se u OneLytics aplikaciji pa se vrati ovde.</string>
+
+    <string name="config_title">Novi widžet</string>
+    <string name="label_ga_property">GA4 PROPERTY</string>
+    <string name="label_google_account">GOOGLE NALOG</string>
+    <string name="label_widget_color">BOJA WIDŽETA</string>
+    <string name="config_save">Sačuvaj widžet</string>
+
+    <string name="crash_title">Aplikacija je prošli put neočekivano stala</string>
+    <string name="crash_message">Ništa nije izgubljeno — prijava i izabrani property su sačuvani. Ako se ponovi, kopiraj tehnički detalj i pošalji ga developeru.</string>
+    <string name="crash_copy">Kopiraj tehnički detalj</string>
+    <string name="crash_copied">Tehnički detalj je kopiran</string>
+</resources>

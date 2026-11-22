@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OneLytics</string>
+
+    <string name="status_sessions_today">sessions today (GA4)</string>
+    <string name="status_no_data">No data yet — sign in and pick a property.</string>
+    <string name="status_last_ok_error">sessions today (last refresh; previous attempt failed)</string>
+
+    <string name="login">Sign in with Google</string>
+    <string name="login_again">Sign in again</string>
+    <string name="logout">Sign out</string>
+    <string name="refresh">Refresh</string>
+    <string name="widget_sub_default">today</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="settings_refresh">REFRESH</string>
+    <string name="refresh_every">Auto-refresh: %1$s</string>
+    <string name="interval_title">Refresh frequency</string>
+    <string name="sync_analytics">Sync Analytics</string>
+    <string-array name="interval_labels">
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>1 day</item>
+    </string-array>
+    <integer-array name="interval_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>1440</item>
+    </integer-array>
+    <string-array name="palette_names">
+        <item>Dark</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Amber</item>
+        <item>Red</item>
+        <item>Light</item>
+    </string-array>
+    <string name="ok_logged_in">Signed in.</string>
+    <string name="ok_updated">Number refreshed.</string>
+    <string name="err_not_configured">Sign in and pick a property first.</string>
+    <string name="err_login_failed">Sign-in failed</string>
+    <string name="err_state_mismatch">OAuth state mismatch — please try again.</string>
+    <string name="err_no_code">The OAuth redirect did not contain a code.</string>
+
+    <string name="pick_property">Pick a property from the list…</string>
+    <string name="pick_property_title">Pick a GA4 property</string>
+    <string name="loading_properties">Loading properties…</string>
+    <string name="err_properties">Could not list properties: %1$s\n(Make sure the Google Analytics Admin API is enabled.)</string>
+    <string name="err_properties_title">Could not list properties</string>
+    <string name="err_properties_empty">No GA4 properties are available to this account.</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="hint_tap_to_pick">tap to pick a property</string>
+    <string name="hint_login_needed">sign-in required</string>
+    <string name="id_prefix">ID %1$s</string>
+    <string name="config_login_needed">Sign in inside the OneLytics app, then come back here.</string>
+
+    <string name="config_title">New widget</string>
+    <string name="label_ga_property">GA4 PROPERTY</string>
+    <string name="label_google_account">GOOGLE ACCOUNT</string>
+    <string name="label_widget_color">WIDGET COLOUR</string>
+    <string name="config_save">Save widget</string>
+
+    <string name="crash_title">OneLytics stopped unexpectedly</string>
+    <string name="crash_message">Nothing was lost — your sign-in and the selected property are saved. If it happens again, copy the technical detail and send it to the developer.</string>
+    <string name="crash_copy">Copy technical detail</string>
+    <string name="crash_copied">Technical detail copied</string>
+</resources>
